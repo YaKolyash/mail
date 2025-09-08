@@ -8,7 +8,62 @@
     <style>
         @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
     </style>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        @media (max-width: 2500px) {
+            .border-640 {
+            display: none;
+            }
+        }
+        @media (max-width: 900px) {
+          .border-900 {
+            width: 500px;
+          }
+
+          .border-640 {
+            display: none;
+          }
+      
+          .text-description {
+            font-size: calc(20px + 10 * (100vw / 700)) !important;
+          }
+      
+          .text-yes {
+            font-size: calc(25px + 10 * (100vw / 700)) !important;
+          }
+        }
+
+        /* mobile */
+
+        @media (max-width: 650px) {
+          .border-900 {
+            display: none;
+          }
+      
+          .border-640 {
+            display: block;
+          }
+      
+          .logo {
+            height: 35px;
+            width: 180px;
+          }
+      
+          .title {
+            font-size: 30px;
+          }
+      
+          .button {
+            font-size: 15px !important;
+          }
+        }
+
+        @media (max-width: 460px) {
+          .border-460 {
+            width: 320px !important;
+          }
+        }
+
+    </style>
 </head>
     <body>
     <table
@@ -223,17 +278,17 @@
             <tr>
                 <td align="center" style="padding-bottom: 20px; display: flex; flex-direction: column">
                     <a style="text-decoration: none" href="https://www.yesservice.io">
-                        <button style="cursor: pointer; text-transform: uppercase; background: #059c73; border: 3px solid #059c73;">
+                        <button style="border-radius: 15px; cursor: pointer; text-transform: uppercase; background: #059c73; border: 3px solid #059c73;">
                             <p class="button" style="padding: 2px 31.5px; color: #fff; font-family: 'Jost', sans-serif; font-size: 20px; font-style: bold;">Наш сайт</p> 
                         </button>
                     </a> 
                     <a style="text-decoration: none" href="tel:+79097265616">
-                        <button style="margin-top: 8px; cursor: pointer; text-transform: uppercase; background: #059c73; border: 3px solid #059c73;">
+                        <button style="border-radius: 15px; margin-top: 8px; cursor: pointer; text-transform: uppercase; background: #059c73; border: 3px solid #059c73;">
                             <p class="button" style="padding: 2px 8px; color: #fff; font-family: 'Jost', sans-serif; font-size: 20px; font-style: bold;">Позвоните нам</p> 
                         </button>
                     </a> 
                     <a style="text-decoration: none" href="https://t.me/Vadim_YES">
-                        <button style="margin-top: 8px; cursor: pointer; text-transform: uppercase; background: #059c73; border: 3px solid #059c73;">
+                        <button style="border-radius: 15px; margin-top: 8px; cursor: pointer; text-transform: uppercase; background: #059c73; border: 3px solid #059c73;">
                             <p class="button" style="padding: 2px 10px; color: #fff; font-family: 'Jost', sans-serif; font-size: 20px; font-style: bold;">Напишите нам</p> 
                         </button>
                     </a> 
