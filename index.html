@@ -8,61 +8,7 @@
     <style>
         @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
     </style>
-    <style>
-        @media (max-width: 2500px) {
-             .border-640 {
-                display: none;
-            }
-        }
-        @media (max-width: 900px) {
-            .border-900 {
-                width: 500px;
-            }
-
-            .border-640 {
-                display: none;
-            }
-
-            .text-description {
-                font-size: calc(20px + 10 * (100vw / 700)) !important;
-            }
-
-            .text-yes {
-                font-size: calc(25px + 10 * (100vw / 700)) !important;
-            }
-        }
-
-        /* Работает */
-
-        @media (max-width: 650px) {
-            .border-900 {
-                display: none;
-            }
-
-            .border-640 {
-                display: block;
-            }
-
-            .logo {
-                height: 35px;
-                width: 180px;
-            }
-
-            .title {
-                font-size: 30px;
-            }
-
-            .button {
-                font-size: 15px !important;
-            }
-        }
-
-        @media (max-width: 460px) {
-            .border-460 {
-                width: 320px !important;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
     <body>
     <table
@@ -87,19 +33,6 @@
             </td>
             </tr>
             <tr align="center">
-            <td
-                align="center"
-                style="
-                    padding-top: 15px;
-                    font-size: calc(20px + 10 * (100vw / 700));
-                    color: #0d0908;
-                    height: 55px;
-                    text-transform: uppercase;
-                    font-family: 'Jost', sans-serif;
-                    line-height: 1,2;
-                ">
-                Консультация</br> бесплатно
-            </td>
             </tr>
             <tr>
                 <td align="center">
@@ -125,7 +58,7 @@
                 </td>
                 <tr align="center">
                     <td>
-                        <p class="text-yes" style="margin: 30px 0; font-size: calc(10px + 10 * (100vw / 700)); font-family: 'Jost', sans-seri"><span align="center" style="color: #f5706a">YES</span> решает эти проблемы:</p>
+                        <p class="text-yes" style="margin: 30px 0; font-size: calc(10px + 10 * (100vw / 700)); font-family: 'Jost', sans-seri"><span align="center" style="color: #1DD300">YES</span> решает эти проблемы:</p>
                     </td>
                 </tr>
                 <tr align="center">
@@ -144,7 +77,7 @@
                     <p class="text-description" align="center" style="width: 600px; font-size: calc(9px + 10 * (100vw / 800)); font-family: 'Jost', sans-serif;">👉 В итоге: вы перестаёте гадать и начинаете управлять прибылью.</p>
                 </td>
                 <td align="center">
-                    <p class="text-yes" style="width: 500px; font-size: 25px; font-family: 'Jost', sans-serif; line-height: 1.1;">Уже сотни продавцов используют <span style="color: #f5706a">YES</span>, чтобы держать под контролем рекламу и продажи</p>
+                    <p class="text-yes" style="width: 500px; font-size: 25px; font-family: 'Jost', sans-serif; line-height: 1.1;">Уже сотни продавцов используют <span style="color: #1DD300">YES</span>, чтобы держать под контролем рекламу и продажи</p>
                 </td>
                 <td align="center">
                     <p class="text-description" style="font-size: calc(10px + 7 * (100vw / 800)); font-family: 'Jost', sans-serif; text-decoration: underline; text-decoration-color: #1DD300; line-height: 1;">А сейчас для вас действует особое предложение:</p>
@@ -155,21 +88,35 @@
                 <td align="center">
                     <p class="text-description" style="font-size: calc(10px + 7 * (100vw / 800)); font-family: 'Jost', sans-serif; text-decoration: underline; text-decoration-color: #1DD300; line-height: 1;">🚀 Активируйте доступ и почувствуйте, что продажи можно не догонять, а управлять ими:</p>
                 </td>
+                 <td
+                align="center"
+                style="
+                    padding-top: 15px;
+                    font-size: calc(20px + 10 * (100vw / 700));
+                    color: #0d0908;
+                    height: 55px;
+                    text-transform: uppercase;
+                    font-family: 'Jost', sans-serif;
+                    line-height: 1,2;
+                    padding-bottom: 30px;
+                ">
+                Консультация бесплатно
+            </td>
             </tr>
             <tr>
                 <td align="center" style="padding-bottom: 30px;">
                     <a style="text-decoration: none" href="https://www.yesservice.io">
-                        <button style="cursor: pointer; text-transform: uppercase; background: #059c73; border: 3px solid #059c73;">
+                        <button style="border-radius: 15px; cursor: pointer; text-transform: uppercase; background: #059c73; border: 3px solid #059c73;">
                             <p class="button" style="padding: 2px 10px; color: #fff; font-family: 'Jost', sans-serif; font-size: 20px; font-style: bold;">Наш сайт</p> 
                         </button>
                     </a> 
                     <a style="text-decoration: none" href="tel:+79097265616">
-                        <button style="cursor: pointer; text-transform: uppercase; background: #059c73; border: 3px solid #059c73;">
+                        <button style="border-radius: 15px; cursor: pointer; text-transform: uppercase; background: #059c73; border: 3px solid #059c73;">
                             <p class="button" style="padding: 2px 10px; color: #fff; font-family: 'Jost', sans-serif; font-size: 20px; font-style: bold;">Позвоните нам</p> 
                         </button>
                     </a> 
                     <a style="text-decoration: none" href="https://t.me/Vadim_YES">
-                        <button style="cursor: pointer; text-transform: uppercase; background: #059c73; border: 3px solid #059c73;">
+                        <button style="border-radius: 15px; cursor: pointer; text-transform: uppercase; background: #059c73; border: 3px solid #059c73;">
                             <p class="button" style="padding: 2px 10px; color: #fff; font-family: 'Jost', sans-serif; font-size: 20px; font-style: bold;">Напишите нам</p> 
                         </button>
                     </a> 
